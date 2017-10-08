@@ -33,6 +33,9 @@ public class RequestMyWebsite {
 		// REquest 3
 		url = "http://classicmodel-web1-my007testprj1.193b.starter-ca-central-1.openshiftapps.com/#/view1";
 		Cron_HttpCallProc_1(url);
+		// REquest 4
+		url = "http://spring-weap1-my007testprj1.193b.starter-ca-central-1.openshiftapps.com/SpringQuartz_T3/hello";
+		Cron_HttpCallProc_1(url);
 	}
 	
 	public void Cron_HttpCallProc_1(String pStrURL) {
